@@ -39,15 +39,15 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>your.email@example.com</span>
+                <span>retesshanevan@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>+63 XXX XXX XXXX</span>
+                <span>+63 948 5361 340</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>Makati City, Philippines</span>
+                <span>Muntinlupa City, Philippines</span>
               </div>
             </div>
           </div>
@@ -59,9 +59,9 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               Education
             </h3>
             <div className={`p-4 rounded-xl ${isDark ? 'bg-dark-bg' : 'bg-light-bg'}`}>
-              <h4 className="font-semibold">Bachelor of Science in Hotel and Restaurant Management</h4>
+              <h4 className="font-semibold">Bachelor of Science in Information Technology</h4>
               <p className={isDark ? 'text-dark-secondary' : 'text-light-secondary'}>STI College Alabang</p>
-              <p className="text-sm">2021 - 2026 (Expected)</p>
+              <p className="text-sm">2023 - 2027 (Expected)</p>
             </div>
           </div>
 
@@ -73,21 +73,21 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             </h3>
             <div className="space-y-4">
               <div className={`p-4 rounded-xl ${isDark ? 'bg-dark-bg' : 'bg-light-bg'}`}>
-                <h4 className="font-semibold">Business Owner</h4>
-                <p className={isDark ? 'text-dark-secondary' : 'text-light-secondary'}>PisoNet Computer Cafe</p>
-                <p className="text-sm mb-2">2020 - Present</p>
+                <h4 className="font-semibold">N/A</h4>
+                <p className={isDark ? 'text-dark-secondary' : 'text-light-secondary'}>N/A</p>
+                <p className="text-sm mb-2">N/A</p>
                 <ul className="text-sm list-disc list-inside space-y-1">
-                  <li>Developed custom business management systems</li>
-                  <li>Managed daily operations and customer service</li>
+                  <li>N/A</li>
+                  <li>N/A</li>
                 </ul>
               </div>
               <div className={`p-4 rounded-xl ${isDark ? 'bg-dark-bg' : 'bg-light-bg'}`}>
-                <h4 className="font-semibold">Freelance Web Developer & Designer</h4>
-                <p className={isDark ? 'text-dark-secondary' : 'text-light-secondary'}>Self-Employed</p>
-                <p className="text-sm mb-2">2021 - Present</p>
+                <h4 className="font-semibold">N/A</h4>
+                <p className={isDark ? 'text-dark-secondary' : 'text-light-secondary'}>N/A</p>
+                <p className="text-sm mb-2">N/A</p>
                 <ul className="text-sm list-disc list-inside space-y-1">
-                  <li>UI/UX design and implementation</li>
-                  <li>Full-stack web application development</li>
+                  <li>N/A</li>
+                  <li>N/A</li>
                 </ul>
               </div>
             </div>

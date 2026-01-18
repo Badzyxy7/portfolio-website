@@ -13,7 +13,7 @@ export default function RightSidebar() {
     { icon: Brain, label: 'Improve Analytical Thinking', color: '#4a90e2' },
     { icon: Database, label: 'Enhance Data Storytelling', color: '#f39c12' },
     { icon: LayoutDashboard, label: 'Create Better Dashboards', color: '#2ecc71' },
-    { icon: Code, label: 'Strengthen SQL / Python', color: '#9b59b6' },
+    { icon: Code, label: 'Strengthen Security', color: '#9b59b6' },
   ];
 
   const socials = [

@@ -9,13 +9,14 @@ import DesignsPage from './pages/DesignsPage';
 
 type MainContentProps = {
   activeTab: string;
+  setActiveTab: (tab: string) => void;
 };
 
-export default function MainContent({ activeTab }: MainContentProps) {
+export default function MainContent({ activeTab, setActiveTab }: MainContentProps) {
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
-        return <HomePage />;
+        return <HomePage setActiveTab={setActiveTab} />;
       case 'about':
         return <AboutPage />;
       case 'achievements':
@@ -25,7 +26,7 @@ export default function MainContent({ activeTab }: MainContentProps) {
       case 'designs':
         return <DesignsPage />;
       default:
-        return <HomePage />;
+        return <HomePage setActiveTab={setActiveTab} />;
     }
   };
 
